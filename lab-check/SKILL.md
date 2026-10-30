@@ -1,6 +1,6 @@
 ---
 name: lab-check
-description: End-of-step routine for Vice to Code labs. Use when the user types /lab-check or says "run the lab-check routine" after a lab step.
+description: End-of-step routine for Vibe to Code labs. Use when the user types /lab-check or says "run the lab-check routine" after a lab step.
 ---
 
 # Lab check
