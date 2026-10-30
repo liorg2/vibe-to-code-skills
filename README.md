@@ -19,7 +19,7 @@ Agent Skills (`SKILL.md`) from [Vibe to Dev](https://www.vibetodev.com): the pac
 npx skills add liorg2/vibe-to-code-skills
 ```
 
-**By hand:** copy a skill's folder into your project, keeping only the `SKILL.md` you want (English `SKILL.md`, Hebrew `SKILL.he.md` renamed to `SKILL.md`):
+**By hand:** copy a skill's `SKILL.md` into your project:
 
 | Agent | Put it at |
 | --- | --- |
@@ -35,7 +35,7 @@ Ask in plain words, for example "run the launch check" or "put my site online". 
 
 ## Files
 
-English files are `SKILL.md`. Hebrew files are `SKILL.he.md`. Launch-check also ships `SKILL.public.md` and `SKILL.public.he.md` for signed-out visitors.
+Each skill is one `SKILL.md`. Launch-check also ships `SKILL.public.md` for signed-out visitors.
 
 The site repo pulls this repository's **`main`** branch into `data/skills` on install, `dev`, and `build`. Edit skills here; do not keep a second copy in the site or labs repos.
 
